@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+
+  text-align: center;
+
+}
+#title{
+  background-image: linear-gradient(#4b0082,#d3d3d3);
+  height: 1000px;
+  color: white;
+  font-family:"montserrat-black";
+}
+h1{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+.singh{
+  animation: text 2s steps(19);
+  overflow: hidden;
+  white-space: nowrap;
+  width: 19ch;
+}
+@keyframes text {
+
+  0%{
+    width: 0ch;
+  }
+  100%{
+    width: 19ch;
+  }
+
+
+}
+h2{
+  font-size: 2.5rem;
+  animation: type 2s 1;
+}
+@keyframes type {
+
+  0%{
+
+    letter-spacing: 10px;
+
+
+  }
+
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* navigation-bar */
+.navbar
+{
+  padding: 0 0 7.5rem;
+}
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "montserrat-light";
+  font-size: 1.2rem;
+}
+.image1{
+
+width: 50%;
+padding-bottom: 100px;
+}
+
+#mywork{
+background-image: linear-gradient(#dcdcdc,white);
+
+}
+
+.workimg{
+  width:70%;
+  padding: 100px 0 10px 0;
+}
+
+.workimg:hover{
+  width: 60%;
+}
+
+.wimg:hover .naming {
+opacity: 1;
+}
+.naming{
+padding-bottom: 10px;
+opacity: 0;
+}
+
+
+.myimage{
+  height: 300px;
+  margin: 20px;
+  border-radius: 50%;
+
+}
+.about{
+
+padding: 100px;
+background-image: linear-gradient(#dcdcdc,white);
+
+}
+
+.a{
+  color:#4b0082;
+}
+
+
+.s{
+    font-size: 3.625rem;
+    margin-bottom: 100px;
+}
+
+.project{
+  background-image: linear-gradient(#dcdcdc,white);
+    margin: 20px 10px;
+    padding: 3% 15%;
+}
+
+#footer{
+  text-align: center;
+  padding: 3% 15%;
+  background-image: linear-gradient(#d3d3d3,#4b0082);
+    color: white;
+}
+
+.ficon{
+  margin: 20px 10px;
+  color:white;
+}
+.ficon:hover{
+
+  text-shadow: 0 0 10px white;
+
+}
